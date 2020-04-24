@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeForcesTagsHider</title>
+
+    <style>
+      body {
+        height: 100px;
+        width: 300px;
+        font-family: "Cuprum", sans-serif !important;
+        padding: 10px;
+      }
+
+      #forces {
+        color: #425e9c;
+      }
+
+      h5 {
+        text-transform: uppercase;
+        font-weight: 900;
+      }
+
+      .switch {
+        margin-bottom: 20px;
+      }
+
+      label {
+        font-size: 40px;
+        font-weight: 900;
+        color: black;
+      }
+    </style>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body>
+    <div class="container center">
+      <h5>
+        <strong>Code <span id="forces">forces</span> Tag Hider</strong>
+      </h5>
+
+      <div class="switch">
+        <label>
+          SHOW
+          <input type="checkbox" />
+          <span class="lever"></span>
+          HIDE
+        </label>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
